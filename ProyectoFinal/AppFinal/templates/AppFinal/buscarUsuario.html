@@ -1,0 +1,62 @@
+
+{% extends 'AppFinal/main.html' %}
+{% load static %}
+
+{% block contenido_que_cambia %}
+
+<!--------------------------------------
+HEADER
+--------------------------------------->
+<div class="container">
+	<div class="jumbotron jumbotron-fluid mb-3 pt-0 pb-0 bg-lightblue position-relative">
+		<div class="pl-4 pr-0 h-100 tofront">
+			<div class="row justify-content-between">
+				<div class="col-md-6 pt-6 pb-6 align-self-center">
+					<h1 class="secondfont mb-3 font-weight-bold">Aqui se BUSCAN los Usuarios. <br> La imagen de aqui a la derecha deberia ser la de alumnos.</h1>
+					<p class="mb-3">
+						
+						<form action="/AppFinal/buscarU/" method="GET"> {% csrf_token %}
+    
+                            <input type="text", name= "nombre", id= "nombre">
+                        
+                            <input class="btn btn-dark" type="submit", value="Buscar">   
+							<ol class="list-featured li:before">
+                            {% if usuarios %}
+                        
+                            <p>Estamos buscando: {{nombre}}</p>
+                            
+                            <ul>									
+                                {% for usuario in usuarios %}
+                                <li>
+									<h2 class="h4 font-weight-bold">
+									{{usuario.nombre}}<br>
+                                 	{{usuario.apellido}}<br>
+									{{usuario.mail}}<br><br>
+								</li>
+                                {% endfor %}
+                            </ul>
+                            
+                            {% else %}
+                            
+                            <p>No hay datos con esta descripcion.</p>
+                            
+                            {% endif %}
+							</h2>
+							<h2 class="h4 font-weight-bold">
+                            <p style="color: red;">{{respuesta}}</p>
+						</h2>
+                        </ol>
+
+					</p>
+					<h1 class="secondfont mb-3 font-weight-bold">Para crear usuarios, ingrese en:</h1>
+					<a href="{% url 'CrearUsuario' %}" class="btn btn-dark">Crear usuario</a>
+				
+				</div>
+				<div class="col-md-6 d-none d-md-block pr-0" style="background-size:cover;background-image:url({% static 'AppFinal/assets/img/demo/estudiantes.jpg' %});">	</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% endblock %}
+

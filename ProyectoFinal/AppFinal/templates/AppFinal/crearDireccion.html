@@ -1,0 +1,44 @@
+{% extends 'AppFinal/main.html' %}
+{% load static %}
+
+{% block contenido_que_cambia %}
+
+<!--------------------------------------
+HEADER
+--------------------------------------->
+<div class="container">
+	<div class="jumbotron jumbotron-fluid mb-3 pt-0 pb-0 bg-lightblue position-relative">
+		<div class="pl-4 pr-0 h-100 tofront">
+			<div class="row justify-content-between">
+				<div class="col-md-6 pt-6 pb-6 align-self-center">
+					<h1 class="secondfont mb-3 font-weight-bold">Aqui se crean las Direcciones. La imagen de la derecha deberia ser un barrio.</h1>
+					<p class="mb-3">
+						
+						{% if miFormulario2.errors %}
+
+						<p style="color: red;">Estan mal los datos.</p>
+
+						{% endif %}
+
+						<form action="" method="POST"> {% csrf_token %}
+							
+							<table>
+								{{ miFormulario2.as_table }}
+							</table>
+							
+							<input type="submit", value="Crear", class="btn btn-dark">
+							
+						</form>	
+						<br>
+						<h1 class="secondfont mb-3 font-weight-bold">Para buscar direcciones, ingrese en:</h1>
+						<a href="{% url 'BuscarDireccion' %}" class="btn btn-dark">Buscar direccion</a>
+					</p>
+				
+				</div>
+				<div class="col-md-6 d-none d-md-block pr-0" style="background-size:cover;background-image:url({% static 'AppFinal/assets/img/demo/casas.jpg' %});">	</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% endblock %}

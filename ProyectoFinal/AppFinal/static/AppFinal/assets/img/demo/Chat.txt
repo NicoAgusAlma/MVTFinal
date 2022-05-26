@@ -1,0 +1,354 @@
+00:45:42	Juan Francisco Pineda Pinzón:	https://github.com/coder-live-class/django-coderhouse-project
+00:46:45	Marcelo Tejoubel:	Buenas noches!
+00:47:19	Nicolas Almazan:	se ve
+00:47:32	Juan Francisco Pineda Pinzón:	https://github.com/coder-live-class/django-coderhouse-project/tree/class_20
+00:48:09	Cesar andió:	aaah se mandó alto readme el profe
+00:48:36	Cesar andió:	también sirve cd
+00:48:48	[Tutor] Joel Solaligue:	mal
+00:49:06	Cesar andió:	los mismos comandos sirven en win 10:
+cd <nombre directorio>
+cd ..
+ls
+00:49:30	Nicolas Almazan:	si
+00:49:31	Juan Pablo Porcel Drimoni:	Si
+00:49:34	Juan Almazán:	sii
+00:49:36	Francisco Garcia:	si
+00:49:46	Maicol Sneider Romero Perez:	buena ncohe profe
+00:53:19	Guido Ferraro:	el pip install es pq esta en un entorno virtual no?
+00:53:38	[Tutor] Gustavo Guzmán:	Sí, Guido
+00:53:44	Guido Ferraro:	ok, gracias
+00:53:56	Emanuel Liberal:	Me paso que se me subio todo lo del venv
+00:54:25	Cesar andió:	no ojo, pip es como un programa para instalar paquetes de python, se usa siempre, no necesariamente en un entorno virtual
+00:54:48	Cesar andió:	incluso antes se instalaba por separado, ahora viene por defecto cuando instalamos Python
+00:55:02	Guido Ferraro:	Claro, pero me refiero a que ya lo venimos trabajando. A esta altura es pq inició el entorno
+00:55:20	Nicolas Almazan:	pero django se instala por proyecto? o una vez sola?
+00:55:21	Ivan Dimas:	cuando doy git checkout class_20 , me arroja este error error: pathspec 'class_20' did not match any file(s) known to git, alguien sabe porque?
+00:55:34	Nicolas Almazan:	si
+00:55:43	Cesar andió:	NICOLAS, si vas a crear un entorno nuevo tenes que volver a instalarlo
+00:55:44	[Tutor] Joel Solaligue:	En este caso lo esta instalando DENTRO del entorno virtual a Django
+00:55:50	Nicolas Almazan:	oki
+00:55:51	[Tutor] Gustavo Guzmán:	Si estás usando entornos virtuales, los tenés que instalar en cada venv
+00:56:42	Ivan Dimas:	hice esto y me sale esto nothing added to commit but untracked files present (use "git add" to track)
+00:57:15	Nicolas Almazan:	si
+00:57:20	Diego Boim:	ya esta
+00:57:22	Analia Arcenilla Medica:	si
+00:57:48	Cesar andió:	tenes archivos que no estás siguiendo, y no debería suceder
+00:59:03	seba Bertolotti:	Buenas noches!
+00:59:19	Juan Almazán:	si
+00:59:20	Diego Boim:	si
+01:00:03	Juan Almazán:	con que archivo te aparece ivan?
+01:00:07	Jeremias Blanco Choncen:	No es lo mismo usar PowerShell en windows
+01:00:11	Jeremias Blanco Choncen:	por ahi es eso
+01:00:31	Cesar andió:	no es el PowerShell porque en realidad lo que estás ejecutando es Git
+01:01:11	Cesar andió:	Git está detectando archivos modificados que no los tiene en cuenta, por eso es que le dice que no los está siguiendo
+01:01:11	Jeremias Blanco Choncen:	Pero powerShell necesita ser SuperUser y te impide ejecutar comnados
+01:01:19	Jeremias Blanco Choncen:	algunos
+01:01:25	Jeremias Blanco Choncen:	comandos
+01:01:26	Juan Pablo Porcel Drimoni:	makemigrations
+01:01:31	Maicol Sneider Romero Perez:	profe me gustaria poder aprender
+01:01:41	Juan Almazán:	x q quizas le apereció eso a ivan luego del makemigrations, lo cual sería logico
+01:01:42	Nicolas Almazan:	jajajaj
+01:01:44	Juan Almazán:	pero no se
+01:02:10	Cesar andió:	pero entonces si no funcionan por el PowerShell no enviaría errores de Git, sino de la PowerShell
+01:02:30	Diego Boim:	si
+01:02:43	Jeremias Blanco Choncen:	no es tan falcil diferenciarlas fijate desde el signo +
+01:02:58	Nicolas Almazan:	si}
+01:03:50	Nicolas Saturno Sivolella:	page not found me salio a mi :(
+01:04:00	Cesar andió:	http://127.0.0.1:8000/app_coder/
+01:04:00	Jerónimo Augurusa:	profe porque sale el not found de js.script?
+01:04:09	Cesar andió:	entrá a esa página, hay que cambiarla
+01:04:14	Jerónimo Augurusa:	ahí en su consola
+01:04:20	Facundo Dalto:	http://127.0.0.1:8000/app_coder/
+01:04:26	Guido Ferraro:	es necesario el super usuario?
+01:04:53	Nicolas Saturno Sivolella:	perfecto gracias!
+01:09:12	[Tutor] Cristian Ovejero:	Perdon sin el acento git checkout class_20 --force
+01:13:14	Fabrizio Chirichian:	quien suplanta a cesar para poner las asistencias ?
+01:13:37	[Tutor] Gustavo Guzmán:	Tengo entendido que está presente
+01:13:52	Fabrizio Chirichian:	no me sale para mandarle mp
+01:13:57	[Tutor] Cesar:	yo pongo el presente por él
+01:14:02	Fabrizio Chirichian:	ah ya debe haber reconectado
+01:14:52	[Tutor] Cesar:	no jaja, este zoom hace 2 clases empezó a ponerme otro nombre cuando inicio, y no estoy acostumbrado a colocar de nuevo el "Tutor" de prefijo
+01:15:14	Diego Boim:	si
+01:15:23	Nicolas Almazan:	sisisi
+01:15:24	Francisco Sosa:	sisi
+01:15:25	Javier Manzur:	eso tambien se usa en flask verdad?
+01:15:29	Diego Aguerre:	es claro
+01:15:35	[Tutor] Joel Solaligue:	Si Javier
+01:15:56	Javier Manzur:	gracias joel!, eso lo use con flask hace mucho
+01:15:56	Javier Manzur:	jajaja
+01:16:37	Juan Almazán:	muy bueno eso
+01:16:38	Elias Rial:	el "extends" es el que hace ese trabajo de heredar?
+01:17:29	[Tutor] Joel Solaligue:	Si Elias, hereda en este caso todo lo que hay en index.html
+01:17:31	[Tutor] Cesar:	el extends es para avisar de donde vamos a traer el código
+01:17:58	Leonel Aguero:	RIP
+01:18:01	Leonel Ieronimo-792985:	y se fue
+01:18:01	Nicolas Almazan:	ARCH
+01:18:02	Juan Almazán:	si
+01:18:03	[Tutor] Joel Solaligue:	si se escucha
+01:18:06	[Tutor] Cesar:	se escucha
+01:18:06	Javier Manzur:	si se escucha
+01:18:08	[Tutor] Brian Lopez:	Lo escuchamos y no vemos
+01:18:08	Javier Manzur:	no se ve
+01:18:09	Diego Boim:	qepd
+01:18:16	Juan Almazán:	X11 exploto
+01:18:19	Leonel Aguero:	y se marcho
+01:18:22	Nicolas Saturno Sivolella:	jajajaja
+01:18:23	Nicolas Almazan:	eso en windows no pasa......
+01:18:24	Leonel Aguero:	y a su barco le llamo
+01:18:25	Diego Boim:	es el linux
+01:18:28	Leonel Aguero:	libertad
+01:18:29	Leonel Ieronimo-792985:	yo le haría juicio a zoom
+01:18:47	[Tutor] Cesar:	la verdad que sí, en Win nunca me pasó y en linux varias veces ya se me cerró
+01:18:53	Diego Boim:	con win98 no pasa
+01:18:58	Jeremias Blanco Choncen:	startc
+01:19:03	Jeremias Blanco Choncen:	startx
+01:19:07	Nicolas Almazan:	si
+01:19:07	Diego Boim:	si
+01:19:07	[Tutor] Cesar:	si
+01:19:09	Juan Almazán:	si
+01:19:09	seba Bertolotti:	si
+01:19:13	Ricardo San Juan:	si
+01:19:13	Javier Manzur:	si
+01:19:25	Nicolas Almazan:	sudo reboot
+01:19:43	Facundo Dalto:	consulta, por qué puedo entrar a http://127.0.0.1:8000/app_coder/profesors y no puedo entrar a http://127.0.0.1:8000/app_coder/index si ambas están declaradas en views.py???
+01:19:47	[Tutor] Cesar:	yo vengo actualizando siempre a ver si un día me termina de andar bien zoom, y no sucede
+01:20:51	Nicolas Almazan:	si
+01:20:55	Juan Almazán:	muy bueno eso
+01:20:56	sebastian Bertolotti:	si
+01:20:58	Juan Almazán:	si si
+01:20:59	Diego Boim:	si
+01:21:53	[Tutor] Joel Solaligue:	Facundo, el index se carga directamente cuando entras a http://127.0.0.1:8000/app_coder/
+01:22:14	Facundo Dalto:	sisi, pero si lo escribo no lo puedo acceder, las otras páginas si
+01:22:25	[Tutor] Cesar:	FACUNDO, no existe el path /app_coder/index, en realidad cuando pones /app_coder/ estás llamando a la vista index
+01:22:55	[Tutor] Cesar:	eso lo podes ver en el urls.py en la lista de urlpatterns
+01:23:09	Facundo Dalto:	si, path('app_coder/', include('app_coder.urls')),
+01:23:31	Facundo Dalto:	se supone que luego de app_coder/ están todas las .html incluídas, pero index no me la trae
+01:23:37	Facundo Dalto:	eso no lo entiendo
+01:23:47	[Tutor] Cesar:	línea 6, indica que al no poner nada se llama a index, pero no poner nada en realidad es:
+http://127.0.0.1:8000/app_coder/
+01:23:55	Ramiro Molin:	que hacía el name='Profesors' en el path?
+01:25:56	Juan Almazán:	no
+01:26:21	[Tutor] Cesar:	RAMIRO, lo que hace ramiro, es llamar a la vista por un nombre, entonces en vez de poner el path completo usa el nombre, es lo que está mostrando ahora con el ejemplo de "Home" y "Homes"
+01:26:43	Nicolas Almazan:	genial
+01:26:45	Juan Almazán:	se entendio
+01:26:47	Diego Boim:	si
+01:26:49	Ramiro Molin:	si perfecto
+01:26:50	Jerónimo Augurusa:	opefecto
+01:26:53	Jeremias Blanco Choncen:	Si
+01:26:54	[Tutor] Cesar:	FACUNDO, creo que no entiendo bien la pregunta, pero si es lo qe te digo no puedo así por chat
+01:26:54	sebastian Bertolotti:	se entendio
+01:26:57	Pablo Miranda Carp:	por suerte HTML es facil
+01:27:00	Enzo Chumbita:	todas las url son casesensitive?
+01:27:09	Ramiro Molin:	si cambias el class solo cambia el formato?
+01:27:10	Juan Pablo Porcel Drimoni:	La extension en la URL se oculta por defecto? Porque no se muestra que es un archivo HTML
+01:27:11	Nicolas Saturno Sivolella:	hay q estudiar HTML por otro lado
+01:27:13	Jerónimo Augurusa:	el kilombo es el css :000
+01:27:15	[Tutor] Cesar:	si EZNO
+01:27:20	[Tutor] Cesar:	ENZO*
+01:27:24	Ramiro Molin:	el class"navbar...
+01:27:34	Javier Manzur:	css no es tan kilombo, y hay demasiada documentacion
+01:27:36	Diego Boim:	P mayuscula
+01:27:38	Nicolas Almazan:	minúscula la URL
+01:27:58	Jerónimo Augurusa:	si? yo abri el archivo de css y me exploto la cabeza de tantas líneas q había ajsjd
+01:28:48	Javier Manzur:	por que esta hecho con bootstrap
+01:28:58	Jerónimo Augurusa:	aa
+01:28:59	Jerónimo Augurusa:	xd
+01:29:08	Ramiro Molin:	que hace el <a class="navbar-brand" ?
+01:30:21	[Tutor]Gabriel Aviles:	es el menú de arriba
+01:30:40	Jerónimo Augurusa:	las class son para desp retocarlas con css no?
+01:30:51	Jerónimo Augurusa:	o cada nombre de class tiene un significado de por si?
+01:30:58	[Tutor] Cesar:	RAMIRO, "a" es una etiqueta de HTML para linkear.
+class es un tag de HTML para darle un nombre a las cosas, en este caso se llaman navbar-brand.
+Ese nombre está puesto por Boostrap (o como se escriba) para aplicar sus estilos de CSS
+01:31:01	Jorge Guzmán Aguilar:	Porfe una pregunta. Las carpetas  ./__pycache__ se deben ignorar con .gitignore?
+01:31:01	Amadeo Miotto:	nav es navegate no?
+01:31:19	Jerónimo Augurusa:	perfecto cesar :D
+01:31:26	Ramiro Molin:	gracias
+01:31:31	Jerónimo Augurusa:	claro para todo lo que va en la barra de navegacion
+01:31:33	Ramiro Molin:	listo
+01:31:35	Jerónimo Augurusa:	en este caso los botones de arriba
+01:31:37	[Tutor] Gustavo Guzmán:	Sí, Jorge. Eso no debería estar en el repositorio
+01:32:03	Jorge Guzmán Aguilar:	Gracias
+01:32:17	[Tutor] Gustavo Guzmán:	La carpeta del entorno virtual es otra que deberías colocar en el .gitignore
+01:34:41	Juan Almazán:	usa npm?
+01:35:30	Juan Almazán:	ahh genial
+01:35:49	Juan Almazán:	buenisimo
+01:35:56	Juan Almazán:	el pyscript
+01:36:07	Mateo Calvi:	pyscript jaja
+01:36:09	Mateo Calvi:	re lento
+01:36:09	[Tutor] Cesar:	exacto!, lo estoy esperando! jaja
+01:36:12	Mateo Calvi:	pero bueno
+01:36:52	[Tutor] Cesar:	si, xq se compila antes de ejecutar, no va a ser mejor que JS en ese sentido
+01:37:49	Amadeo Miotto:	chicos deje un comentario temprano hoy en la plataforma . para crear un usuario de admin en django, el código es Python manage.py createsuperuser
+01:37:49	Nicolas Saturno Sivolella:	los breaks no existen mas?
+01:38:36	Guido Ferraro:	los verdaderos devs no tienen breaks (?
+01:39:07	Emanuel Liberal:	jaja trabajo muy duro. como un esclavo, paguenme dinero ...
+01:39:37	[Tutor] Cesar:	es cuestión de tiempo, los breakoutrooms necesitan tiempo extra
+01:40:05	[Tutor] Gustavo Guzmán:	Están hablando de las pausas de 5/10 minutos
+01:40:31	[Tutor] Cesar:	no, las salas
+01:40:51	Juan Almazán:	como en muchos routers xd
+01:41:03	Mateo Calvi:	hablamos de los descansos de 5/10
+01:42:01	[Tutor] Cesar:	claro, me fuí yo para cualquier lado 🤦‍♂️
+perdón Gustavo
+01:43:27	Javier Manzur:	ya ahi esta el crud
+01:43:27	[Tutor] Cesar:	y práctico
+01:43:29	Javier Manzur:	jejjejeje
+01:43:43	Emanuel Liberal:	Buenisimo eso!
+01:43:59	Facundo Dalto:	eso lo guarda en la base de datos directamente?
+01:44:07	[Tutor] Cesar:	yep
+01:44:09	Facundo Dalto:	donde se le dice en qué tabla?
+01:44:46	[Tutor] Cesar:	en realidad, eso se crea en función al archivo "models.py" que creamos, desde ahí sabe cómo tienen que ser las tablas.
+01:45:09	Facundo Dalto:	perfecto! gracias cesar!
+01:45:10	[Tutor] Cesar:	la configuración de lo que vemos en el admin se encuentra en el archivo "admin.py"
+01:45:22	[Tutor] Cesar:	se pueden configurar muchas cosas desde ese archivo
+01:45:58	Nicolas Almazan:	vamos a ver alguna manera de ingresar datos a través del HTML al código Python o la base de datos?
+01:46:35	Jerónimo Augurusa:	lo que dijo el de arriba jaja
+01:46:37	[Tutor] Cesar:	si, creo que ya se vió algo no?
+01:46:51	Jerónimo Augurusa:	pero era en la url
+01:47:01	Nicolas Almazan:	o sea no a través de la url me refiero.. sino algún campo para completar y guardarlo
+01:47:14	[Tutor] Cesar:	aaah ok ok, pero sí, se puede hacer y se va a explicar más adelante
+01:47:21	Nicolas Almazan:	Graciasss
+01:47:23	Jerónimo Augurusa:	mesrive
+01:47:25	Jerónimo Augurusa:	jaja
+01:47:41	Jonatan W:	grupos de usuarios con menos permisos que admin?
+01:48:14	[Tutor] Brian Lopez:	Jonatan si se pueden crear
+01:48:28	Jerónimo Augurusa:	supongo que se podrá decir que nadie mas que el admin pueda acceder al url /admin no?
+01:48:29	[Tutor] Brian Lopez:	Se puede hacer muchisimo, y hacer aplicaciones muy muy completas
+01:48:35	[Tutor] Brian Lopez:	Claro
+01:49:38	[Tutor] Cesar:	Si Jerónimo, de hecho lo ideal sería que el admin lo usemos los desarrolladores, los usuarios comunes usarían las herramientas que les brindamos
+01:49:49	[Tutor] Cesar:	que les creamos
+01:50:02	Jerónimo Augurusa:	claro
+01:50:08	Jerónimo Augurusa:	xq sino rip pagina jaja
+01:50:27	[Tutor] Cesar:	Igual los grupos son totalmente configurables, desde el acceso a una tabla hasta la posibilidad de eliminar un registro, editar, etc...
+01:51:47	Nicolas Almazan:	lista
+01:51:49	Nicolas Almazan:	desordenada?
+01:51:59	Jonatan W:	unordered list
+01:52:38	Juan Pablo Porcel Drimoni:	list item - bullet
+01:52:39	Nicolas Almazan:	lista sin orden
+01:55:14	Nicolas Almazan:	me hace mal
+01:55:41	Jerónimo Augurusa:	uh le quedo el email en la fecha
+01:55:49	Nicolas Almazan:	true?
+01:55:51	Nicolas Almazan:	false?
+01:57:08	Nicolas Almazan:	todo bien
+01:57:09	Juan Almazán:	todo bien
+01:57:16	Ivan Dimas:	todo OK
+02:00:35	Juan Almazán:	sii
+02:00:38	Nicolas Almazan:	Epic
+02:00:48	Juan Almazán:	mal... está buenísimo
+02:01:02	Nicolas Almazan:	mientra meno laburemo… mejo..
+02:01:43	[Tutor] Cesar:	exacto, es el norte a seguir
+02:02:42	Nicolas Almazan:	int exploree
+02:02:47	Nicolas Almazan:	r
+02:02:51	Jerónimo Augurusa:	en .ico lo tiene q descargar
+02:03:48	Damian Freite 2:	jojo se pico esto
+02:03:52	Nicolas Almazan:	multiple monitor ya mismo
+02:04:02	Nicolas Almazan:	WOoooooooooo
+02:04:09	Jerónimo Augurusa:	opa
+02:04:17	Ramiro Molin:	podrias hacer lo mismo pero con la imagen de fondo?
+02:04:41	[Tutor] Cesar:	Shift + F5
+Para recargar limpiando caché
+02:04:53	Jerónimo Augurusa:	pensé que tenia q ser .ico
+02:04:57	Jerónimo Augurusa:	xdn't
+02:05:11	Juan Almazán:	yo
+02:05:11	Nicolas Almazan:	ingresar dato a través de HTML
+02:05:24	Juan Almazán:	que hace exactamente la secret key?
+02:05:52	[Tutor] Cesar:	lo ideal sería para aquellos que no les está funcionando el proyecto más que adelantar clases
+02:05:55	Juan Almazán:	x q django dice q no hay q compartirla, pero supongo que no pasa nada en esos casos que no est[an hosteados, no?
+02:06:01	Guido Ferraro:	Eso luego se utiliza para apis?
+02:06:06	Juan Almazán:	*están
+02:06:15	Neyen Luna:	claro
+02:06:36	Juan Almazán:	claro
+02:06:38	Juan Pablo Porcel Drimoni:	Si, quería saber por qué motivo se oculta la extensión .html en la URL del navegador. Eso lo hace Django o se configura en algún lado?
+02:07:14	[Tutor] Cesar:	te referís cuando se linkea en un html?
+02:07:30	Juan Pablo Porcel Drimoni:	No, en el navegador me refiero
+02:07:32	Juan Pablo Porcel Drimoni:	http://127.0.0.1:8000/app_coder/homeworks
+02:07:42	Juan Pablo Porcel Drimoni:	Fijate que no se muestra el .html al final
+02:07:59	Jerónimo Augurusa:	xq ahí va lo que escribis en urls
+02:08:02	Jerónimo Augurusa:	no en las views
+02:08:10	Juan Pablo Porcel Drimoni:	Claro, en la URL
+02:08:44	Facundo Dalto:	consulta, se puedo utilizar querys en SQL dentro del código??
+
+y otra, vamos a ver conexion con bases de datos tipo oracle?
+02:09:27	[Tutor] Gustavo Guzmán:	127.0.0.1 = localhost
+02:10:33	[Tutor] Joel Solaligue:	Si Facundo, podemos realizar consultas sql mediante un cursor
+02:11:04	Facundo Dalto:	genial! vamos a ver cómo? o vamos a trabajar con el sqlite solamente?
+02:11:56	[Tutor] Joel Solaligue:	No te sabria responder si mas adelante vamos a incluir otra base de datos!
+02:12:13	[Tutor] Gustavo Guzmán:	En este curso no vamos a ver conexión con bases de datos de Oracle.
+02:12:25	Nicolas Almazan:	hashtag
+02:12:33	[Tutor] Gustavo Guzmán:	Si te interesa profundizar en el tema, podés leer más sobre ORMs
+02:13:28	[Tutor] Cesar:	el tema de las bases de datos es así, Django usa un ORM, es decir, nosotros vamos a programar las bases de datos de la misma forma, con código escrito en Python.
+Django se va a encargar de trasladar ese código a la base de datos que necesites, podes trabajar con mysql, oracle, postgres, sqlite3, y no se cuál más, pero el código es el mismo, o sea que podes trabajar con todas esas bases de datos sin saber nada de SQL, sin la necesidad de conocer esas sintáxis
+02:13:43	Nicolas Saturno Sivolella:	porq en el caso de admin no lleva los {{}}?
+02:14:20	Facundo Dalto:	claro ,el tema es que yo sé sql, se me complica más esto jajaja pero genial el dato! voy a investigar los ORM!! gracias!!
+02:15:01	Jerónimo Augurusa:	recomienda alguna pagina para descargar templates?
+02:15:11	Enzo Chumbita:	profe puede pasar su configuración de colores de vscode?
+02:15:15	Jerónimo Augurusa:	alguna otra*
+02:15:16	Jerónimo Augurusa:	jaja
+02:15:17	Juan Almazán:	jaja
+02:15:18	[Tutor] Cesar:	Igual Django permite usar lenguaje SQL, nada más que no es conveniente porque se encarga de agregar muchas acciones referidas a seguridad de las cuáles podemos desentendernos
+02:15:29	Juan Almazán:	profe, que window manager es ese?
+02:15:53	Jeremias Blanco Choncen:	Osea basicamente lo ideal es trabajar con la organizacion que vimos hoy?
+02:16:17	Facundo Dalto:	excelente!!!
+02:16:37	José Abreu:	el soporte es importantisimo
+02:16:44	Jerónimo Augurusa:	muy bueno eso
+02:17:15	Jerónimo Augurusa:	claro
+02:23:42	[Tutor] Gustavo Guzmán:	Les comparto algunos recursos sobre el ORM de Django y consultas de datos:Presentación en un evento de la PyConAr:https://eventos.python.org.ar/media/talks/Jugando_con_el_ORM_de_Django_-_PyConAr.pdfDocumentación de Django:https://docs.djangoproject.com/es/4.0/topics/db/https://docs.djangoproject.com/es/4.0/topics/db/queries/
+02:26:16	Jerónimo Augurusa:	perfecto
+02:26:40	Ricardo san juan:	genial!
+02:26:56	Juan Almazán:	está buenísimo el panel ese
+02:27:14	[Tutor] Cesar:	esta buen el material que compartió Gustavo, este es el video del PDF:
+https://www.youtube.com/watch?v=S6vwCy6tW2M&t=727s
+02:27:23	[Tutor] Cesar:	les recomiendo seguir ese canal de youtube
+02:28:27	Pilar Cao:	anotado.
+02:28:43	Juan Almazán:	gracias Cesar
+02:29:13	Ricardo san juan:	gracias Cesar
+02:29:14	[Tutor] Cesar:	Denle las gracias a Gustavo, me hizo recordar que esa presentación la había visto hace unas semanas
+02:29:28	Ramiro Molin:	gracias a Gustavo
+02:29:37	Ricardo san juan:	gracias Gustavo
+02:29:43	Juan Almazán:	jajaja
+02:30:03	[Tutor] Cesar:	acá está lo que les decía hoy que se puede configurar los grupos, así como el profe selecciona los permisos para el usuario, se puede hacer lo mismo para los grupos
+02:30:35	[Tutor] Cesar:	después es más fácil asignar grupos a un usuario y no tener que estar configurando todo por cada usuario que creamos
+02:30:36	Jerónimo Augurusa:	a ese usuario desp se lo conectaría con un formulario  log in en el HTML?
+02:30:37	Emanuel Liberal:	Cursos y tareas
+02:31:19	Enzo Chumbita:	profe puede pasar su configuración de colores de vscode?
+02:31:21	[Tutor] Cesar:	JERÓNIMO, lo que está configurando el profe es sólo para el manejo del admin de django, no tiene relación con nuestros HTML de la web que estamos creando
+02:31:32	Juan Almazán:	gracias! muy buena la clase
+02:32:14	[Tutor] Cesar:	esos colores, si no me equivoco, vienen por defecto con instalar los plugins básicos de python en vscodee
+02:32:25	[Tutor] Cesar:	yo tengo los mismos y no instalé nada
+02:32:49	Enzo Chumbita:	se parece al que tengo por defecto pero hay cosas que no se me resaltan
+02:36:44	[Tutor] Cesar:	como qué ENZO?
+02:37:25	Ricardo san juan:	👏👏
+02:38:22	Enzo Chumbita:	por ejemplo si pongo importo la clase no me cambia de color el nombre de la clase que importe
+02:38:37	Enzo Chumbita:	y asi con varias cosas
+02:40:13	[Tutor] Cesar:	Ojo, depnede de varias cosas, el tema de los imports, deberías hacer foco justo en cualquier otra cosa que no sea los imports jaja.
+Por ejemplo, quizás te los marca subrayados, significa que no los encuentra, sería un error que crashea, pero cuando levantas el server ejecuta lo más bien. Entonces en realidad no hubo un error de importación. El profe lo ve en verde porque le carga bien y vos en blanco pero te anda igual
+02:41:31	Facundo Dalto:	excelente!!
+02:43:26	[Tutor] Joel Solaligue:	con el comando: git remote set-url origin “linkdesurepo”
+02:45:59	Enzo Chumbita:	claro pero era un ejemplo nada mas, tampoco me cambia de color el nombre de las funciones, clases ni variables que es un poco molesto a la hora de leerlo por que tengo que andar pensando en el que es cada cosa en vez de relacionarlo con un color
+02:46:25	Enzo Chumbita:	salvo ints, str y las palbras reservadas no me cambia nada de color
+02:46:34	[Tutor] Joel Solaligue:	enzo
+02:46:37	Brayhan Calle:	que Linux usa profe?
+02:46:45	[Tutor] Joel Solaligue:	fijate cambiando el interprete de python
+02:47:12	[Tutor] Joel Solaligue:	dentro del visual, ctr +shift+p
+02:47:28	Facundo Dalto:	buenísimo!!! se entendió perfecto, gracias!!
+02:47:30	Juan Francisco Pineda Pinzón:	https://github.com/coder-live-class/class_20
+02:47:50	Enzo Chumbita:	gracias!
+02:47:53	[Tutor] Joel Solaligue:	Y ahi seleccionas el interprete de python
+02:47:58	Juan Francisco Pineda Pinzón:	git remote set-url origin “linkdesurepo”
+02:48:01	Jeremias Blanco Choncen:	porque dice 2 days ago?
+02:48:09	Diego Boim:	Buenas noches!
+02:48:29	Leonel Ieronimo-792985:	Buenas noches!
+02:48:29	Ricardo San Juan:	muchas gracias por la clase profe! y bien finde para todos
+02:48:31	Jeremias Blanco Choncen:	Ahhh entendi
+02:48:37	Juan Almazán:	buen finde!
+02:48:41	Diego Aguerre:	hasta luego
+02:48:42	Ricardo San Juan:	excelente clase
+02:48:45	sebastian Bertolotti:	Muchas gracias, buenas noches a todos!
+02:48:45	Mariano Zavagna:	Buenas noches!
+02:48:48	Juan Almazán:	muy buena clase!!
+02:48:49	Javier Barboza Navarro:	buenas noches !
+02:48:49	[Tutor] Gustavo Guzmán:	Buenas noches!
+02:48:51	Facundo Dalto:	buena noche!!!!
+02:48:54	Jerónimo Augurusa:	muchas gracias
+02:48:58	[Tutor] Joel Solaligue:	buenas noches, gracias profe!
+02:48:58	Juan Almazán:	gracias profe

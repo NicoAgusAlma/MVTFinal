@@ -1,0 +1,77 @@
+
+{% extends 'AppFinal/main.html' %}
+{% load static %}
+
+{% block contenido_que_cambia %}
+
+<!--------------------------------------
+HEADER
+--------------------------------------->
+<div class="container">
+	<div class="jumbotron jumbotron-fluid mb-3 pt-0 pb-0 bg-lightblue position-relative">
+		<div class="pl-4 pr-0 h-100 tofront">
+			<div class="row justify-content-between">
+				<div class="col-md-6 pt-6 pb-6 align-self-center">
+					<h1 class="secondfont mb-3 font-weight-bold">Aqui se BUSCAN los Estudios cursados por institucion. <br> La imagen de aqui a la derecha deberia ser de libros.</h1>
+					<p class="mb-3">
+						
+						<form action="/AppFinal/buscarE/" method="GET"> {% csrf_token %}
+    
+                            <input type="text", name= "busqueda", id= "busqueda">
+                        
+                            <input class="btn btn-dark" type="submit", value="Buscar">   
+							<ol class="list-featured li:before">
+                            {% if estudios %}
+                                
+                            <!--------------------------------------
+                            PROFE!!!! ACA NO ENTIENDO POR QUE NO ME TRAE EL VALOR DE search_param
+                            CUANDO LO IMPRIMO, LO VEO EN LA CONSOLA, PERO ACA NO LO MUESTRA
+                            --------------------------------------->
+                            <p>Estamos buscando: {{search_param}} </p>
+                            
+                            <ul>									
+                                {% for estudio in estudios %}
+                                <li>
+									<h2 class="h4 font-weight-bold">
+									{{estudio.institucion}}<br>
+                                 	{{estudio.carrera}}<br>
+                                 	{{estudio.tiempoCursado}}<br>
+
+                                    {% if estudio.egresado %}
+                                    <p> Egresado</p>
+                                    {% else %}
+                                    <p> No egresado</p>
+                                    {% endif %}
+                                 	<br>
+									<br>
+								</li>
+                                {% endfor %}
+                            </ul>
+                            
+                            {% else %}
+                            
+                            <p>No hay datos con esta descripcion.</p>
+                            
+                            {% endif %}
+							</h2>
+							<h2 class="h4 font-weight-bold">
+                            <p style="color: red;">{{respuesta}}</p>
+						</h2>
+                        </ol>
+
+					</p>
+					<h1 class="secondfont mb-3 font-weight-bold">Para crear Estudios Cursados, ingrese en:</h1>
+					<a href="{% url 'CrearEstudio' %}" class="btn btn-dark">Crear estudio</a>
+				
+				</div>
+				<div class="col-md-6 d-none d-md-block pr-0" style="background-size:cover;background-image:url({% static 'AppFinal/assets/img/demo/books.jpg' %});">	</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- End Header -->
+
+    
+
+{% endblock %}
+
