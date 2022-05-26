@@ -8,7 +8,7 @@
 
 ## ⚠️ De todas maneras!
 Hay algunas cosas esteticas pendientes.
-En el archivo buscarEstudio.html hay un comentario en el que comento que la llamada a una variable definida en el views no me funciona y no se por que.
+En el archivo buscarEstudio.html hay un comentario en el que menciono que la llamada a una variable definida en el views no me funciona y no se por que.
 Aun asi, creo que esta en condiciones de ser entregado y demostrar lo adquirido.
 <br>
 <br>
