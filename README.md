@@ -1,19 +1,15 @@
 <h1 align="center">
-  AYUDAAAAAAAA!
+  MVT!
 </h1>
 
 <h4 align="center">
-  No puedo hacer funcionar la busqueda en /AppFinal/busquedaUsuario
+  Profe: Creo que cumple con todas las consignas.
 </h4>
 
-## ⚠️ COMO REPRODUCIR EL ERROR????
-Para reproducir el error, descargar el repositorio, iniciar el servidor e ir al path /AppFinal/busquedaUsuario<br>
-Alli adentro, realizar una busqueda, por ejemplo Nicolas, y ver el resultado.<br>
-NO SE POR QUE NO RENDERIZA EL HTML. LO MUESTRA COMO CODIGO Y LUEGO DE HORAS INTENTANDO NO PUDE HACER QUE LO MUESTRE BIEN!!<br>
-POR OTRO LADO, si se fija en la linea 24 de buscarUsuario.html hay una instruccion que dice 'Estamos buscando el: {{nombre}}' y al momento de realizar la busqueda, en el HTML sin renderizar, no muestra esa variable. Eso tambien me fue imposible resolver.<br>
-
-![Imagen problema](https://raw.githubusercontent.com/NicoAgusAlma/ProyectoFinal/master/ProyectoFinal/imagenes/rende.jpg)
-
+## ⚠️ De todas maneras!
+Hay algunas cosas esteticas pendientes.
+En el archivo buscarEstudio.html hay un comentario en el que comento que la llamada a una variable definida en el views no me funciona y no se por que.
+Aun asi, creo que esta en condiciones de ser entregado y demostrar lo adquirido.
 <br>
 <br>
 
