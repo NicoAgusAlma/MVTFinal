@@ -2,9 +2,9 @@
   MVT!
 </h1>
 
-<h4 align="center">
+<h2 align="center">
   Profe: Creo que cumple con todas las consignas.
-</h4>
+</h2>
 
 ## ⚠️ De todas maneras!
 Hay algunas cosas esteticas pendientes.
